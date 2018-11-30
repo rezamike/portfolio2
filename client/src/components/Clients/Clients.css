@@ -1,0 +1,9 @@
+.Clients {
+    background-image: pink;
+    height: -webkit-fill-available; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}

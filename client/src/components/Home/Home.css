@@ -1,0 +1,25 @@
+.Home {
+    background-image: url('/assets/Milkyway_Panorama\ True.jpg');
+    height: -webkit-fill-available; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.social {
+    margin: 5px;
+    fill: #D0C8C0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.social:hover {
+    fill: slategray!important;
+    cursor: pointer;
+}
+
+li {
+    margin: 0 5px 5px 0;
+}

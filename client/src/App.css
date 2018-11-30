@@ -1,0 +1,103 @@
+.App {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.aboutScroll {
+  color: #998877;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  padding-right: 2%;
+  margin-right: 20px;
+  -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.servicesScroll {
+  color: #998877;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  padding-right: 2%;
+  margin-right: 20px;
+  -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.worksScroll {
+  color: #998877;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  padding-right: 2%;
+  margin-right: 20px;
+  -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.clientsScroll {
+  color: #998877;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  padding-right: 2%;
+  margin-right: 20px;
+  -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.aboutScroll:hover {
+  color: slategray!important;
+  cursor: pointer;
+}
+
+.servicesScroll:hover {
+  color: slategray!important;
+  cursor: pointer;
+}
+
+.worksScroll:hover {
+  color: slategray!important;
+  cursor: pointer;
+}
+
+.clientsScroll:hover {
+  color: slategray!important;
+  cursor: pointer;
+}
+
+Link {
+  text-decoration: none;
+}
+
+.mobile_nav {
+  padding-right: 2%;
+}
+
+.navButton {
+  font-size: 32px;
+  color: #778899;
+  padding-right: 2%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  display: flex;
+  width: min-content;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.navButton:hover {
+  color: #998877!important;
+  cursor: pointer;
+}
