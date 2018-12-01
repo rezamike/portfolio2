@@ -110,9 +110,9 @@ class App extends Component {
     return [
       <ul data-aos="fade-down"
         data-aos-delay="50"
-        data-aos-duration="2000"
+        data-aos-duration="1500"
         data-aos-easing="ease-in-out"
-        style={{ listStyleType: 'none', display: 'flex', margin: '0 5% 5% 0', paddingLeft: 0 }}>
+        className='menuBack'>
         <li key={1}><Link
           className='font-effect-3d-float'
           activeClass="active"

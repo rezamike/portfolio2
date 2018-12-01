@@ -95,9 +95,34 @@ Link {
   width: min-content;
   margin: 0 auto;
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .navButton:hover {
   color: #998877!important;
   cursor: pointer;
+}
+
+.menuBack {
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  list-style-type: none;
+  display: flex;
+  margin: 0 5% 5% 0;
+  padding-left: 0;
+}
+
+/* @keyframes example {
+  0%   {left:0px; top:0px;}
+  100% {left:0px; top:100px;}
+} */
+
+hr {
+  width: 50%;
+  text-align: center;
+  border: .5px solid black;
+  opacity: .6;
+  margin-bottom: 3%;
+  margin-top: 0;
 }

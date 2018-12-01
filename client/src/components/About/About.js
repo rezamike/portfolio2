@@ -8,7 +8,6 @@ AOS.init();
 
 const styles = {
     name: {
-        display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         width: '100%',
@@ -34,11 +33,20 @@ class About extends Component {
                     data-aos-duration="2000"
                     data-aos-easing="ease-in-out"
                     style={styles.name}>
+                    <p style={{
+                        fontWeight: 700,
+                        color: 'slategray',
+                        fontSize: 42,
+                        textAlign: 'center',
+                        marginBottom: '1%'
+                    }}>About <span style={{ fontWeight: 400, color: '#998877'}}>me</span></p>
+                    <hr />
                     <p
                         className='font-effect-3d-float'
                         style={{
                             color: '#778899',
-                            fontSize: 36,
+                            fontStyle: 'italic',
+                            fontSize: 32,
                             textAlign: 'center',
                             padding: '25px 100px',
                             margin: '25px 100px'
