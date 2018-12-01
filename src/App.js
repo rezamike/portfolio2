@@ -11,6 +11,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 
 library.add(faBars, faTimes)
 
@@ -172,18 +173,20 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div style={styles.name}>
-          {this.renderNavigation()}
+      <Route exact path="/">
+        <div className="App">
+          <div style={styles.name}>
+            {this.renderNavigation()}
+          </div>
+          <div style={{ position: 'relative' }}>
+            <Home />
+            <Element name="aboutScroll" className="element" ><About /></Element>
+            <Element name="servicesScroll" className="element"><Services /></Element>
+            <Element name="worksScroll" className="element"><Works /></Element>
+            <Element name="clientsScroll" className="element"><Clients /></Element>
+          </div>
         </div>
-        <div style={{ position: 'relative' }}>
-          <Home />
-          <Element name="aboutScroll" className="element" ><About /></Element>
-          <Element name="servicesScroll" className="element"><Services /></Element>
-          <Element name="worksScroll" className="element"><Works /></Element>
-          <Element name="clientsScroll" className="element"><Clients /></Element>
-        </div>
-      </div>
+      </Route>
     );
   }
 }
