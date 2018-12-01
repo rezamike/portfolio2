@@ -173,20 +173,20 @@ class App extends Component {
 
   render() {
     return (
-      <Route exact path="/">
+      <Router>
         <div className="App">
           <div style={styles.name}>
             {this.renderNavigation()}
           </div>
           <div style={{ position: 'relative' }}>
-            <Home />
+            <Route exact path="/" component={Home} />
             <Element name="aboutScroll" className="element" ><About /></Element>
             <Element name="servicesScroll" className="element"><Services /></Element>
             <Element name="worksScroll" className="element"><Works /></Element>
             <Element name="clientsScroll" className="element"><Clients /></Element>
           </div>
         </div>
-      </Route>
+      </Router>
     );
   }
 }
