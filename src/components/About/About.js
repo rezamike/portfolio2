@@ -10,7 +10,7 @@ const styles = {
     name: {
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100%',
+        width: '100vw',
         position: 'relative',
         overflow: 'auto'
     },
@@ -39,7 +39,7 @@ class About extends Component {
                         fontSize: 42,
                         textAlign: 'center',
                         marginBottom: '1%'
-                    }}>About <span style={{ fontWeight: 400, color: '#998877'}}>me</span></p>
+                    }}>About <span style={{ fontWeight: 400, color: '#998877' }}>me</span></p>
                     <hr />
                     <p
                         className='font-effect-3d-float'
@@ -49,18 +49,29 @@ class About extends Component {
                             fontSize: 32,
                             textAlign: 'center',
                             padding: '25px 100px',
-                            margin: '25px 100px'
                         }}
                     >
-                        Like many others, I was captivated by the creative artistry and technical expertise that I encountered on my television screen as a child. When I held a camera for the first time, I grasped the possibility of what my idols in television and filmmaking had been seeing:  an empowering opportunity to create another world more awesome than my own. This curiosity quickly propagated into a yearning for personal creativity and a resilient passion for filmmaking that could not be easily satisfied.
+                        With a strong pursuit of creating something from nothing, the transition from a background in film and media was seamless to building web and mobile based applications efficiently.
                     </p>
-
+                    <br />
+                    <div
+                        data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="2000"
+                        data-aos-easing="ease-in-out"
+                        style={{
+                            justifyContent: 'center',
+                            alignSelf: 'flex-end',
+                            width: '100vw',
+                            position: 'absolute',
+                            overflow: 'auto',
+                            display: 'flex',
+                            paddingRight: '2%',
+                            marginBottom: 100
+                        }}>
+                        
+                    </div>
                 </div>
-                {/* <div style={styles.buttons}>
-                    <SocialLogo onClick={() => {window.open('https://github.com/rezamike')}} className='social' size={ 36 } icon='github'  />
-                    <SocialLogo onClick={() => {window.open('https://www.linkedin.com/in/michael-r-sanaiha/')}} className='social' size={ 36 } icon='linkedin'  />
-                    <SocialLogo onClick={() => {window.open('https://www.instagram.com/rezamike/')}} className='social' size={ 36 } icon='instagram'  />
-                </div> */}
             </div>
         );
     }

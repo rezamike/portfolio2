@@ -5,21 +5,23 @@ import About from './components/About/About';
 import Services from './components/Services/Services';
 import Works from './components/Works/Works';
 import Clients from './components/Clients/Clients';
+import Contact from './components/Contact/Contact';
 import { render } from 'react-dom';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 
-library.add(faBars, faTimes)
+library.add(faBars, faTimes, faChevronDown)
 
 const styles = {
   name: {
     position: 'absolute',
-    zIndex: 10,
-    width: '100%',
+    zIndex: 1,
+    width: '100vw',
     display: 'flex',
     // flexDirection: 'row',
     justifyContent: 'center',
@@ -154,6 +156,16 @@ class App extends Component {
           duration={600}
         >Clients
             </Link></li>
+        <li key={5}><Link
+          className='font-effect-3d-float'
+          activeClass="active"
+          className="contactScroll"
+          to="contactScroll"
+          spy={true}
+          smooth={true}
+          duration={600}
+        >Contact
+            </Link></li>
       </ul>
     ];
   }
@@ -184,6 +196,7 @@ class App extends Component {
             <Element name="servicesScroll" className="element"><Services /></Element>
             <Element name="worksScroll" className="element"><Works /></Element>
             <Element name="clientsScroll" className="element"><Clients /></Element>
+            <Element name="contactScroll" className="element"><Contact /></Element>
           </div>
         </div>
       </Router>

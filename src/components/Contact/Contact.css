@@ -1,0 +1,75 @@
+.Contact {
+    background-image: url('/assets/Milkyway_Panorama\ True.jpg');
+    height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.social {
+    margin: 5px;
+    fill: #D0C8C0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.social:hover {
+    fill: slategray!important;
+    cursor: pointer;
+}
+
+li {
+    margin: 0 5px 5px 0;
+}
+
+.upButton {
+    font-size: 32px;
+    color: #778899;
+    padding-right: 2%;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    display: flex;
+    width: min-content;
+    margin: 0 auto;
+  }
+
+  .up {
+    animation-name: up;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes up {
+  0%   {padding-top: 25px}
+  25%   {padding-top: 50px}
+  50%   {padding-top: 25px}
+  75%   {padding-top: 50px}
+  100%   {padding-top: 25px}
+}
+  
+  .upButton:hover {
+    color: #998877!important;
+    cursor: pointer;
+  }
+
+  .form {
+      background: #D0C8C0;
+      padding: 10px;
+      margin: 0 auto;
+      width: 35vw;
+      height: 50vh;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 5px;
+      display: flex;
+  }
+
+  label {
+    color: #778899;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 2%;
+    padding: 2%;
+  }
