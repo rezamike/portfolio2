@@ -16,7 +16,6 @@ const styles = {
         width: '100vw',
         margin: '1% 1% 1% 2%',
         position: 'relative',
-        overflow: 'auto'
     },
     buttons: {
         display: 'flex',
@@ -31,6 +30,11 @@ const styles = {
         alignSelf: 'flex-start',
         width: '100vw',
         // paddingRight: '2%',
+    },
+    form: {
+        margin: '0 auto',
+        width: '35vw',
+        height: '50vh',
     }
 }
 
@@ -48,7 +52,7 @@ class Contact extends Component {
     }
 
     handleChange = event => {
-        const {name, value} = event.target
+        const { name, value } = event.target
         this.setState({
             [name]: value
         });
@@ -96,7 +100,7 @@ class Contact extends Component {
                     >
                         Let's work together!
                     </p>
-                    <div className='form'>
+                    <div style={styles.form}>
                         <form onSubmit={this.handleSubmit}>
                             <label>
                                 Name:
@@ -108,9 +112,24 @@ class Contact extends Component {
                             </label>
                             <label>
                                 Message:
-          <input style={{ width: 150, height: 100 }} type="text" name='message' value={this.state.message} onChange={this.handleChange} />
+          <textarea
+                                    style={{
+                                        height: '100%',
+                                        border: 'none',
+                                        fontSize: 18,
+                                        margin: '1%',
+                                        borderRadius: 2.5,
+                                        width: '-webkit-fill-available',
+                                        padding: '10px 20px'
+                                    }}
+                                    rows="5"
+                                    cols="80"
+                                    type="text"
+                                    name='message'
+                                    value={this.state.message}
+                                    onChange={this.handleChange} />
                             </label>
-                            <input type="submit" value="Submit" />
+                            <input className='submit' type="submit" value="Submit" />
                         </form>
                     </div>
                 </div>

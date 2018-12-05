@@ -12,7 +12,6 @@ const styles = {
         alignItems: 'center',
         width: '100vw',
         position: 'relative',
-        overflow: 'auto'
     },
     // buttons: {
     //     display: 'flex',
@@ -64,7 +63,6 @@ class About extends Component {
                             alignSelf: 'flex-end',
                             width: '100vw',
                             position: 'absolute',
-                            overflow: 'auto',
                             display: 'flex',
                             paddingRight: '2%',
                             marginBottom: 100

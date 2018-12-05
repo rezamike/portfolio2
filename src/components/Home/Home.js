@@ -16,7 +16,6 @@ const styles = {
         width: '100vw',
         margin: '1% 1% 1% 2%',
         position: 'relative',
-        overflow: 'auto'
     },
     buttons: {
         display: 'flex',

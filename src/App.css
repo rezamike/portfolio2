@@ -1,7 +1,7 @@
 .App {
   font-family: 'Montserrat', sans-serif;
-  box-sizing: border-box;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 .aboutScroll {

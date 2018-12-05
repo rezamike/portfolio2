@@ -9,7 +9,6 @@ const styles = {
         alignItems: 'center',
         width: '100vw',
         position: 'relative',
-        overflow: 'auto'
     },
     // buttons: {
     //     display: 'flex',
