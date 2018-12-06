@@ -13,8 +13,15 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,800" rel="stylesheet">
 
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_N23hHxzdBLrH7QCwtoTGj");
+    })();
+  </script>
+
   <!-- Special thanks to Cole Bemis, and Chanut for their icon contributions to Flat Icons web library. -->
-  
+
   <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.

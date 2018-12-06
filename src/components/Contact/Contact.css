@@ -55,21 +55,9 @@ li {
     cursor: pointer;
   }
 
-  /* .form {
-      background: #D0C8C0;
-      padding: 25px;
-      margin: 0 auto;
-      width: 35vw;
-      height: 50vh;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      border-radius: 5px;
-      display: flex;
-      flex-direction: column;
-  } */
-
   form {
     background: #D0C8C0;
-      padding: 25px;
+      padding: 15px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       border-radius: 5px;
       display: flex;
@@ -80,8 +68,8 @@ li {
     color: black;
     font-size: 20px;
     font-weight: 700;
-    margin: 2%;
-    padding: 2%;
+    margin: 1%;
+    padding: 1%;
   }
 
   input {
@@ -101,7 +89,7 @@ li {
       font-size: 18px;
       font-weight: 700;
       margin: 1%;
-    padding: 1%;
+    padding: 2%;
     font-family: 'Montserrat', sans-serif;
     border: none;
     -webkit-transition-duration: 0.4s;

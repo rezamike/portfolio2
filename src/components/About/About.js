@@ -10,7 +10,8 @@ const styles = {
     name: {
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100vw',
+        width: '100%',
+        height: '100vh',
         position: 'relative',
     },
     // buttons: {

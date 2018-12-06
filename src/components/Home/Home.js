@@ -94,7 +94,7 @@ class Home extends Component {
                     <SocialLogo onClick={() => { window.open('https://www.instagram.com/rezamike/') }} className='social' size={36} icon='instagram' />
                 </div>
                 <div style={styles.downer} className='down'>
-                    <p button onClick={() => scroll.scrollTo(650)} className='downButton'><FontAwesomeIcon icon='chevron-down' /></p>
+                    <p button='true' onClick={() => scroll.scrollTo(100)} className='downButton'><FontAwesomeIcon icon='chevron-down' /></p>
                 </div>
             </div>
         );

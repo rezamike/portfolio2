@@ -5,6 +5,7 @@ import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import * as emailjs from 'emailjs-com';
 
 library.add(faChevronUp)
 
@@ -34,7 +35,6 @@ const styles = {
     form: {
         margin: '0 auto',
         width: '35vw',
-        height: '50vh',
     }
 }
 
@@ -59,8 +59,15 @@ class Contact extends Component {
     }
 
     handleSubmit = event => {
-        console.log(this.state.name, this.state.email, this.state.message);
         event.preventDefault();
+
+        
+        emailjs.sendForm('gmail', 'template_tO3QTbtT', '.submitForm', 'user_N23hHxzdBLrH7QCwtoTGj')
+            .then((response) => {
+                alert("Your email has been sent over! I'll take a look and get back to you soon!");
+            }, (err) => {
+                console.log('FAILED...', err);
+            });
     }
 
     componentDidMount() {
@@ -101,7 +108,7 @@ class Contact extends Component {
                         Let's work together!
                     </p>
                     <div style={styles.form}>
-                        <form onSubmit={this.handleSubmit}>
+                        <form className='submitForm' onSubmit={this.handleSubmit}>
                             <label>
                                 Name:
           <input type="text" name='name' value={this.state.name} onChange={this.handleChange} />
@@ -114,7 +121,7 @@ class Contact extends Component {
                                 Message:
           <textarea
                                     style={{
-                                        height: '100%',
+                                        height: '75%',
                                         border: 'none',
                                         fontSize: 18,
                                         margin: '1%',
