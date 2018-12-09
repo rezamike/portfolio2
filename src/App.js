@@ -146,7 +146,7 @@ class App extends Component {
           duration={600}
         >Works
             </Link></li>
-        <li key={4}><Link
+        {/* <li key={4}><Link
           className='font-effect-3d-float'
           activeClass="active"
           className="clientsScroll"
@@ -155,8 +155,8 @@ class App extends Component {
           smooth={true}
           duration={600}
         >Clients
-            </Link></li>
-        <li key={5}><Link
+            </Link></li> */}
+        <li key={4}><Link
           className='font-effect-3d-float'
           activeClass="active"
           className="contactScroll"
@@ -195,7 +195,7 @@ class App extends Component {
             <Element name="aboutScroll" className="element" ><About /></Element>
             <Element name="servicesScroll" className="element"><Services /></Element>
             <Element name="worksScroll" className="element"><Works /></Element>
-            <Element name="clientsScroll" className="element"><Clients /></Element>
+            {/* <Element name="clientsScroll" className="element"><Clients /></Element> */}
             <Element name="contactScroll" className="element"><Contact /></Element>
           </div>
         </div>

@@ -38,7 +38,8 @@ class About extends Component {
                         color: 'slategray',
                         fontSize: 42,
                         textAlign: 'center',
-                        marginBottom: '1%'
+                        marginBottom: '1%',
+                        textShadow: '0 1px 0 rgba(255, 255, 255, 0.4)'
                     }}>About <span style={{ fontWeight: 400, color: '#998877' }}>me</span></p>
                     <hr />
                     <p

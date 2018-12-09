@@ -1,9 +1,50 @@
 .Works {
-    background-image: white;
+    background-color: #D0C8C0;
     height: -webkit-fill-available; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/Milkyway_Panorama\ True.jpg');
+    height: -webkit-fill-available; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    text-align: center;
+    color: #D0C8C0;
+    font-size: 36px;
+    font-weight: 700;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.projects:hover {
+    background-color: slategray!important;
+    background-image: none;
+    color: #998877;
+    cursor: pointer;
+    text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
 }

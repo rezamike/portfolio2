@@ -4,7 +4,6 @@ import SocialLogo from 'social-logos';
 
 const styles = {
     name: {
-        display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         width: '100vw',
@@ -23,25 +22,25 @@ class Works extends Component {
     render() {
         return (
             <div className="Works">
-                <div 
-                data-aos="fade-up"
-                data-aos-delay="50"
-                data-aos-duration="2000"
-                data-aos-easing="ease-in-out"
-                style={styles.name}>
-                    <p
-                        className='font-effect-3d-float'
-                        style={{
-                            color: '#998877',
-                            fontSize: 36,
-                            textAlign: 'center',
-                            padding: '25px 100px',
-                            margin: '25px 100px'
-                        }}
-                    >
-                    Like many others, I was captivated by the creative artistry and technical expertise that I encountered on my television screen as a child. When I held a camera for the first time, I grasped the possibility of what my idols in television and filmmaking had been seeing:  an empowering opportunity to create another world more awesome than my own. This curiosity quickly propagated into a yearning for personal creativity and a resilient passion for filmmaking that could not be easily satisfied.
-                    </p>
-
+                <div
+                    data-aos="fade-up"
+                    data-aos-delay="50"
+                    data-aos-duration="2000"
+                    data-aos-easing="ease-in-out"
+                    style={styles.name}>
+                    <p style={{
+                        fontWeight: 700,
+                        color: 'slategray',
+                        fontSize: 42,
+                        textAlign: 'center',
+                        marginBottom: '1%',
+                        textShadow: '0 1px 0 rgba(255, 255, 255, 0.4)'
+                    }}>Work<span style={{ fontWeight: 400, color: '#998877' }}>s</span></p>
+                    <hr /> 
+                    <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center'}}>
+                        <p className='projects' onClick={() => { window.open('http://myagility.herokuapp.com/') }}>.agility</p>
+                        <p className='projects' onClick={() => { window.open('https://lighthouse-project2.herokuapp.com/') }}>lightHouse</p>
+                    </div>
                 </div>
                 {/* <div style={styles.buttons}>
                     <SocialLogo onClick={() => {window.open('https://github.com/rezamike')}} className='social' size={ 36 } icon='github'  />

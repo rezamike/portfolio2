@@ -7,3 +7,20 @@
     background-size: cover;
     display: flex;
 }
+
+.stacks {
+    background-color: #D0C8C0;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 20%;
+    height: 75px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.stacks:hover {
+    background-color: slategray!important;
+}
