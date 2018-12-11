@@ -7,3 +7,27 @@
     background-size: cover;
     display: flex;
 }
+
+.profileImage {
+    background-image: url('/assets/Milkyway_Panorama\ True.jpg');
+    height: -webkit-fill-available; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10vw;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    height: 275px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.profileImage:hover {
+    background-color: slategray!important;
+    background-image: none;
+}

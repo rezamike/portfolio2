@@ -54,22 +54,18 @@ class About extends Component {
                     >
                         With a strong pursuit of creating something from nothing, the transition from a background in film and media was seamless to building web and mobile based applications efficiently.
                     </p>
-                    <br />
                     <div
                         data-aos="fade-right"
                         data-aos-delay="50"
                         data-aos-duration="2000"
                         data-aos-easing="ease-in-out"
                         style={{
-                            justifyContent: 'center',
-                            alignSelf: 'flex-end',
+                            justifyContent: 'flex-end',
                             width: '100vw',
                             position: 'absolute',
                             display: 'flex',
-                            paddingRight: '2%',
-                            marginBottom: 100
                         }}>
-                        
+                        <img className='profileImage' src='/assets/itsmeinasuit copy.jpeg' />
                     </div>
                 </div>
             </div>
