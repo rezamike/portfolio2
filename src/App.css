@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.nameApp {
+  position: absolute;
+  z-index: 1;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
 .aboutScroll {
   color: #998877;
   font-weight: 700;
@@ -138,4 +146,157 @@ hr {
   margin-bottom: 3%;
   margin-top: 2%;
   border: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .App {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+  
+  .nameApp {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .aboutScroll {
+    color: #998877;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-left: 25%;
+    margin-right: 10px;
+    -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+  }
+  
+  .servicesScroll {
+    color: #998877;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-right: 0;
+    margin-right: 10px;
+    -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+  }
+  
+  .worksScroll {
+    color: #998877;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-right: 0;
+    margin-right: 10px;
+    -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+  }
+  
+  .clientsScroll {
+    color: #998877;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-right: 0;
+    margin-right: 10px;
+    -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+  }
+  
+  .contactScroll {
+    color: #998877;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-right: 0;
+    margin-right: 10px;
+    -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+  }
+  
+  .aboutScroll:hover {
+    color: slategray!important;
+    cursor: pointer;
+  }
+  
+  .servicesScroll:hover {
+    color: slategray!important;
+    cursor: pointer;
+  }
+  
+  .worksScroll:hover {
+    color: slategray!important;
+    cursor: pointer;
+  }
+  
+  .clientsScroll:hover {
+    color: slategray!important;
+    cursor: pointer;
+  }
+  
+  .contactScroll:hover {
+    color: slategray!important;
+    cursor: pointer;
+  }
+  
+  Link {
+    text-decoration: none;
+  }
+  
+  .mobile_nav {
+    padding-right: 0;
+  }
+  
+  .navButton {
+    font-size: 32px;
+    color: #778899;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    display: flex;
+    width: min-content;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .navButton:hover {
+    color: #998877!important;
+    cursor: pointer;
+  }
+  
+  .menuBack {
+    position: relative;
+    animation-duration: 4s;
+    list-style-type: none;
+    display: flex;
+    margin: 0 5% 5% 0;
+    padding-left: 0;
+  }
+  
+  hr {
+    width: 40vw;
+    text-align: center;
+    background-image: -webkit-linear-gradient(top left, #778899, #998877); 
+    opacity: .6;
+    height: 1px;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    border: none;
+  }
 }

@@ -2,21 +2,21 @@ import React, { Component } from 'react';
 import './Works.css';
 import SocialLogo from 'social-logos';
 
-const styles = {
-    name: {
-        justifyContent: 'center',
-        alignItems: 'center',
-        width: '100vw',
-        position: 'relative',
-    },
-    // buttons: {
-    //     display: 'flex',
-    //     flexDirection: 'column',
-    //     justifyContent: 'center',
-    //     paddingRight: '1%',
-    //     position: 'sticky'
-    // },
-}
+// const styles = {
+//     name: {
+//         justifyContent: 'center',
+//         alignItems: 'center',
+//         width: '100vw',
+//         position: 'relative',
+//     },
+//     // buttons: {
+//     //     display: 'flex',
+//     //     flexDirection: 'column',
+//     //     justifyContent: 'center',
+//     //     paddingRight: '1%',
+//     //     position: 'sticky'
+//     // },
+// }
 
 class Works extends Component {
     render() {
@@ -27,26 +27,14 @@ class Works extends Component {
                     data-aos-delay="50"
                     data-aos-duration="2000"
                     data-aos-easing="ease-in-out"
-                    style={styles.name}>
-                    <p style={{
-                        fontWeight: 700,
-                        color: 'slategray',
-                        fontSize: 42,
-                        textAlign: 'center',
-                        marginBottom: '1%',
-                        textShadow: '0 1px 0 rgba(255, 255, 255, 0.4)'
-                    }}>Work<span style={{ fontWeight: 400, color: '#998877' }}>s</span></p>
+                    className='nameW'>
+                    <p className='titleW'>Work<span className='standAloneW'>s</span></p>
                     <hr /> 
-                    <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center'}}>
+                    <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', marginBottom: -50}}>
                         <p className='projects' onClick={() => { window.open('http://myagility.herokuapp.com/') }}>.agility</p>
                         <p className='projects' onClick={() => { window.open('https://lighthouse-project2.herokuapp.com/') }}>lightHouse</p>
                     </div>
                 </div>
-                {/* <div style={styles.buttons}>
-                    <SocialLogo onClick={() => {window.open('https://github.com/rezamike')}} className='social' size={ 36 } icon='github'  />
-                    <SocialLogo onClick={() => {window.open('https://www.linkedin.com/in/michael-r-sanaiha/')}} className='social' size={ 36 } icon='linkedin'  />
-                    <SocialLogo onClick={() => {window.open('https://www.instagram.com/rezamike/')}} className='social' size={ 36 } icon='instagram'  />
-                </div> */}
             </div>
         );
     }

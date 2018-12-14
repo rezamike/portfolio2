@@ -8,30 +8,30 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 library.add(faChevronDown)
 
-const styles = {
-    name: {
-        display: 'flex',
-        justifyContent: 'flex-start',
-        alignItems: 'center',
-        width: '100vw',
-        margin: '1% 1% 1% 2%',
-        position: 'relative',
-    },
-    buttons: {
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        paddingRight: '1%',
-        position: 'sticky'
-    },
-    downer: {
-        position: 'absolute',
-        display: 'flex',
-        alignSelf: 'flex-end',
-        width: '100vw',
-        // paddingRight: '2%',
-    }
-}
+// const styles = {
+//     name: {
+//         display: 'flex',
+//         justifyContent: 'flex-start',
+//         alignItems: 'center',
+//         width: '100vw',
+//         margin: '1% 1% 1% 2%',
+//         position: 'relative',
+//     },
+//     buttons: {
+//         display: 'flex',
+//         flexDirection: 'column',
+//         justifyContent: 'center',
+//         paddingRight: '1%',
+//         position: 'sticky'
+//     },
+//     downer: {
+//         position: 'absolute',
+//         display: 'flex',
+//         alignSelf: 'flex-end',
+//         width: '100vw',
+//         // paddingRight: '2%',
+//     }
+// }
 
 class Home extends Component {
     constructor(props) {
@@ -64,36 +64,21 @@ class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <div style={styles.name}>
-                    <p
-                        className='font-effect-3d-float'
-                        style={{
-                            color: '#998877',
-                            fontWeight: 700,
-                            fontSize: 42,
-                            paddingLeft: '2%',
-                            textAlign: 'left'
-                        }}
-                    >
+                <div className='name'>
+                    <p className='font-effect-3d-float intro'>
                         My name is Michael Reza
-                        <span
-                            style={{
-                                fontWeight: 800,
-                                color: 'slategray',
-                                fontSize: 48
-                            }}
-                        > Sanaiha
+                        <span className='standAlone'> Sanaiha
                         </span>
                         <br />
                         and I'm more than just a div in the DOM.
                     </p>
                 </div>
-                <div style={styles.buttons}>
+                <div className='buttons'>
                     <SocialLogo onClick={() => { window.open('https://github.com/rezamike') }} className='social' size={36} icon='github' />
                     <SocialLogo onClick={() => { window.open('https://www.linkedin.com/in/michael-r-sanaiha/') }} className='social' size={36} icon='linkedin' />
                     <SocialLogo onClick={() => { window.open('https://www.instagram.com/rezamike/') }} className='social' size={36} icon='instagram' />
                 </div>
-                <div style={styles.downer} className='down'>
+                <div className='down downer'>
                     <p button='true' onClick={() => scroll.scrollTo(600)} className='downButton'><FontAwesomeIcon icon='chevron-down' /></p>
                 </div>
             </div>

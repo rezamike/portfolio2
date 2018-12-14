@@ -8,14 +8,51 @@
     display: flex;
 }
 
-.social {
+.nameC {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  margin: 1% 1% 1% 2%;
+  position: relative;
+}
+
+.titleC {
+  color: #998877;
+  font-weight: 700;
+  font-size: 42px;
+  padding-left: 2%;
+  text-align: left;
+}
+
+.buttonsC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 1%;
+  position: sticky;
+}
+
+.upperC {
+  position: absolute;
+  display: flex;
+  align-self: flex-start;
+  width: 100vw;
+}
+
+.formC {
+  margin: 0 auto;
+  width: 35vw;
+}
+
+.socialC {
     margin: 5px;
     fill: #D0C8C0;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 
-.social:hover {
+.socialC:hover {
     fill: slategray!important;
     cursor: pointer;
 }
@@ -24,7 +61,7 @@ li {
     margin: 0 5px 5px 0;
 }
 
-.upButton {
+.upButtonC {
     font-size: 32px;
     color: #778899;
     padding-right: 2%;
@@ -36,7 +73,7 @@ li {
     margin: 0 auto;
   }
 
-  .up {
+  .upC {
     animation-name: up;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -50,7 +87,7 @@ li {
   100%   {padding-top: 25px}
 }
   
-  .upButton:hover {
+  .upButtonC:hover {
     color: #998877!important;
     cursor: pointer;
   }
@@ -104,4 +141,155 @@ li {
       opacity: 1;
       color: black;
       cursor: pointer;
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .Contact {
+      background-image: url('/assets/Milkyway_Panorama\ True.jpg');
+      height: 100vh; 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+  }
+  
+  .nameC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 1% 1% 1% 2%;
+    position: relative;
+    flex-direction: column;
+  }
+
+  .titleC {
+    color: #998877;
+    font-weight: 700;
+    font-size: 26px;
+    padding-left: 2%;
+    text-align: left;
+    padding-bottom: 15%;
+    padding-top: 25%;
+    display: inline-flex;
+  }
+  
+  .buttonsC {
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
+    align-self: center;
+  }
+  
+  .upperC {
+    position: absolute;
+    display: flex;
+    align-self: flex-start;
+    width: 100vw;
+  }
+  
+  .formC {
+    margin: 0 auto;
+    width: 75vw;
+  }
+  
+  .socialC {
+      margin: 5px;
+      fill: #D0C8C0;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+  }
+  
+  .socialC:hover {
+      fill: slategray!important;
+      cursor: pointer;
+  }
+  
+  li {
+      margin: 0 5px 5px 0;
+  }
+  
+  .upButtonC {
+      font-size: 32px;
+      color: #778899;
+      padding-right: 2%;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      display: flex;
+      width: min-content;
+      margin: 0 auto;
+    }
+  
+    .upC {
+      animation-name: up;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+  
+    @keyframes up {
+    0%   {padding-top: 25px}
+    25%   {padding-top: 50px}
+    50%   {padding-top: 25px}
+    75%   {padding-top: 50px}
+    100%   {padding-top: 25px}
+  }
+    
+    .upButtonC:hover {
+      color: #998877!important;
+      cursor: pointer;
+    }
+  
+    form {
+      background: #D0C8C0;
+        padding: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+  
+    label {
+      color: black;
+      font-size: 20px;
+      font-weight: 700;
+      margin: 1%;
+      padding: 1%;
+    }
+  
+    input {
+      border: none;
+      font-size: 18px;
+      margin: 1%;
+      border-radius: 2.5px;
+      width: -webkit-fill-available;
+      padding: 10px 20px;
+    }
+  
+    .submit {
+        background-color: #778899;
+        border-radius: 2.5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 1%;
+      padding: 2%;
+      font-family: 'Montserrat', sans-serif;
+      border: none;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      opacity: .8;
+      width: min-content;
+      display: flex;
+      align-self: center;
+    }
+  
+    .submit:hover {
+        opacity: 1;
+        color: black;
+        cursor: pointer;
+    }
   }

@@ -6,22 +6,22 @@ import 'aos/dist/aos.css';
 
 AOS.init();
 
-const styles = {
-    name: {
-        justifyContent: 'center',
-        alignItems: 'center',
-        width: '100%',
-        height: '100vh',
-        position: 'relative',
-    },
-    // buttons: {
-    //     display: 'flex',
-    //     flexDirection: 'column',
-    //     justifyContent: 'center',
-    //     paddingRight: '1%',
-    //     position: 'sticky'
-    // },
-}
+// const styles = {
+//     name: {
+//         justifyContent: 'center',
+//         alignItems: 'center',
+//         width: '100%',
+//         height: '100vh',
+//         position: 'relative',
+//     },
+//     // buttons: {
+//     //     display: 'flex',
+//     //     flexDirection: 'column',
+//     //     justifyContent: 'center',
+//     //     paddingRight: '1%',
+//     //     position: 'sticky'
+//     // },
+// }
 
 class About extends Component {
     render() {
@@ -32,40 +32,26 @@ class About extends Component {
                     data-aos-delay="50"
                     data-aos-duration="2000"
                     data-aos-easing="ease-in-out"
-                    style={styles.name}>
-                    <p style={{
-                        fontWeight: 700,
-                        color: 'slategray',
-                        fontSize: 42,
-                        textAlign: 'center',
-                        marginBottom: '1%',
-                        textShadow: '0 1px 0 rgba(255, 255, 255, 0.4)'
-                    }}>About <span style={{ fontWeight: 400, color: '#998877' }}>me</span></p>
+                    className='nameA'>
+                    <p className='titleA'>
+                    About <span className='standAloneA'>me</span></p>
                     <hr />
-                    <p
-                        className='font-effect-3d-float'
-                        style={{
-                            color: '#778899',
-                            fontStyle: 'italic',
-                            fontSize: 32,
-                            textAlign: 'center',
-                            padding: '25px 100px',
-                        }}
-                    >
-                        With a strong pursuit of creating something from nothing, the transition from a background in film and media was seamless to building web and mobile based applications efficiently.
+                    <p className='font-effect-3d-float mainA'>
+                        With a strong pursuit of creating something from nothing, the transition from a background in film and media was seamless to building web and mobile based applications efficiently and beautifully.
                     </p>
                     <div
                         data-aos="fade-right"
                         data-aos-delay="50"
                         data-aos-duration="2000"
                         data-aos-easing="ease-in-out"
-                        style={{
-                            justifyContent: 'flex-end',
-                            width: '100vw',
-                            position: 'absolute',
-                            display: 'flex',
-                        }}>
-                        <img className='profileImage' src='/assets/itsmeinasuit copy.jpeg' />
+                        className='secondaryA'>
+                        <p className='font-effect-3d-float secondaryTextA'>
+                            Click the link below to see what that background in film looked like ...
+                    </p>
+                       <div className='imageDivA'>
+                        <p className="extLinkA" onClick={() => { window.open('http://www.michaelrezasanaiha.com') }}>Film</p>
+                        </div>
+                        <img className='profileImageA' src='/assets/itsmeinasuit copy.jpeg' />
                     </div>
                 </div>
             </div>

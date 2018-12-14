@@ -9,34 +9,34 @@ import * as emailjs from 'emailjs-com';
 
 library.add(faChevronUp)
 
-const styles = {
-    name: {
-        display: 'flex',
-        justifyContent: 'flex-start',
-        alignItems: 'center',
-        width: '100vw',
-        margin: '1% 1% 1% 2%',
-        position: 'relative',
-    },
-    buttons: {
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        paddingRight: '1%',
-        position: 'sticky'
-    },
-    upper: {
-        position: 'absolute',
-        display: 'flex',
-        alignSelf: 'flex-start',
-        width: '100vw',
-        // paddingRight: '2%',
-    },
-    form: {
-        margin: '0 auto',
-        width: '35vw',
-    }
-}
+// const styles = {
+//     name: {
+//         display: 'flex',
+//         justifyContent: 'flex-start',
+//         alignItems: 'center',
+//         width: '100vw',
+//         margin: '1% 1% 1% 2%',
+//         position: 'relative',
+//     },
+//     buttons: {
+//         display: 'flex',
+//         flexDirection: 'column',
+//         justifyContent: 'center',
+//         paddingRight: '1%',
+//         position: 'sticky'
+//     },
+//     upper: {
+//         position: 'absolute',
+//         display: 'flex',
+//         alignSelf: 'flex-start',
+//         width: '100vw',
+//         // paddingRight: '2%',
+//     },
+//     form: {
+//         margin: '0 auto',
+//         width: '35vw',
+//     }
+// }
 
 class Contact extends Component {
     constructor(props) {
@@ -61,7 +61,7 @@ class Contact extends Component {
     handleSubmit = event => {
         event.preventDefault();
 
-        
+
         emailjs.sendForm('gmail', 'template_tO3QTbtT', '.submitForm', 'user_N23hHxzdBLrH7QCwtoTGj')
             .then((response) => {
                 alert("Your email has been sent over! I'll take a look and get back to you soon!");
@@ -94,20 +94,17 @@ class Contact extends Component {
     render() {
         return (
             <div className="Contact">
-                <div style={styles.name}>
-                    <p
-                        className='font-effect-3d-float'
-                        style={{
-                            color: '#998877',
-                            fontWeight: 700,
-                            fontSize: 42,
-                            paddingLeft: '2%',
-                            textAlign: 'left'
-                        }}
-                    >
+                <div className='nameC'>
+                    <p className='font-effect-3d-float titleC'>
                         Let's work together!
+                    
+                    <div className='buttonsC'>
+                        <SocialLogo onClick={() => { window.open('https://github.com/rezamike') }} className='social' size={36} icon='github' />
+                        <SocialLogo onClick={() => { window.open('https://www.linkedin.com/in/michael-r-sanaiha/') }} className='social' size={36} icon='linkedin' />
+                        <SocialLogo onClick={() => { window.open('https://www.instagram.com/rezamike/') }} className='social' size={36} icon='instagram' />
+                    </div>
                     </p>
-                    <div style={styles.form}>
+                    <div className='formC'>
                         <form className='submitForm' onSubmit={this.handleSubmit}>
                             <label>
                                 Name:
@@ -140,14 +137,8 @@ class Contact extends Component {
                         </form>
                     </div>
                 </div>
-
-                <div style={styles.buttons}>
-                    <SocialLogo onClick={() => { window.open('https://github.com/rezamike') }} className='social' size={36} icon='github' />
-                    <SocialLogo onClick={() => { window.open('https://www.linkedin.com/in/michael-r-sanaiha/') }} className='social' size={36} icon='linkedin' />
-                    <SocialLogo onClick={() => { window.open('https://www.instagram.com/rezamike/') }} className='social' size={36} icon='instagram' />
-                </div>
-                <div style={styles.upper} className='up'>
-                    <p button onClick={this.scrollToTop} className='upButton'><FontAwesomeIcon icon='chevron-up' /></p>
+                <div className='upC upperC'>
+                    <p button onClick={this.scrollToTop} className='upButtonC'><FontAwesomeIcon icon='chevron-up' /></p>
                 </div>
             </div>
         );
