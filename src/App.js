@@ -4,7 +4,6 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Services from './components/Services/Services';
 import Works from './components/Works/Works';
-import Clients from './components/Clients/Clients';
 import Contact from './components/Contact/Contact';
 import { render } from 'react-dom';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
