@@ -16,17 +16,6 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-d
 
 library.add(faBars, faTimes, faChevronDown)
 
-// const styles = {
-//   name: {
-//     position: 'absolute',
-//     zIndex: 1,
-//     width: '100vw',
-//     display: 'flex',
-//     // flexDirection: 'row',
-//     justifyContent: 'center',
-//   },
-// }
-
 class App extends Component {
   constructor(props) {
     super(props);

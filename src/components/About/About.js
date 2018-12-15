@@ -17,7 +17,7 @@ class About extends Component {
                     data-aos-easing="ease-in-out"
                     className='nameA'>
                     <p className='titleA'>
-                    About <span className='standAloneA'>me</span></p>
+                        About <span className='standAloneA'>me</span></p>
                     <hr />
                     <p className='font-effect-3d-float mainA'>
                         With a strong pursuit of creating something from nothing, the transition from a background in film and media was seamless to building web and mobile based applications efficiently and beautifully.
@@ -31,8 +31,8 @@ class About extends Component {
                         <p className='font-effect-3d-float secondaryTextA'>
                             Click the link below to see what that background in film looked like ...
                     </p>
-                       <div className='imageDivA'>
-                        <p className="extLinkA" onClick={() => { window.open('http://www.michaelrezasanaiha.com') }}>Film</p>
+                        <div className='imageDivA'>
+                            <p className="extLinkA" onClick={() => { window.open('http://www.michaelrezasanaiha.com') }}>Film</p>
                         </div>
                         <img className='profileImageA' src='/assets/itsmeinasuit copy.jpeg' />
                     </div>

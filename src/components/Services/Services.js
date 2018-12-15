@@ -7,22 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 library.add(fab)
 
-// const styles = {
-//     name: {
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         width: '100vw',
-//         position: 'relative',
-//     },
-//     // buttons: {
-//     //     display: 'flex',
-//     //     flexDirection: 'column',
-//     //     justifyContent: 'center',
-//     //     paddingRight: '1%',
-//     //     position: 'sticky'
-//     // },
-// }
-
 class Services extends Component {
     render() {
         return (

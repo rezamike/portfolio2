@@ -27,10 +27,9 @@
 
 .buttonsC {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-right: 1%;
-  position: sticky;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 5%;
 }
 
 .upperC {
@@ -42,7 +41,7 @@
 
 .formC {
   margin: 0 auto;
-  width: 35vw;
+  width: 40vw;
 }
 
 .socialC {
@@ -131,13 +130,13 @@ li {
   }
 
   .submit {
-      background-color: #778899;
-      border-radius: 2.5px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      color: white;
-      font-size: 18px;
-      font-weight: 700;
-      margin: 1%;
+    background-color: #778899;
+    border-radius: 2.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 1%;
     padding: 2%;
     font-family: 'Montserrat', sans-serif;
     border: none;

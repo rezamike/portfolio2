@@ -43,6 +43,8 @@
     width: 100vw;
     position: absolute;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .secondaryTextA {
@@ -50,6 +52,7 @@
     font-size: 24px;
     text-align: center;
     padding: 25px 100px;
+    height: min-content;
 }
 
 .profileImageA {
@@ -64,6 +67,8 @@
     border-radius: 5px;
     padding: 20px;
     height: 275px;
+    width: 13%;
+    display: none;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -78,9 +83,6 @@
 
 .imageDivA {
     justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    position: absolute;
     display: flex;
 }
 

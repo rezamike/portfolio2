@@ -2,22 +2,6 @@ import React, { Component } from 'react';
 import './Works.css';
 import SocialLogo from 'social-logos';
 
-// const styles = {
-//     name: {
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         width: '100vw',
-//         position: 'relative',
-//     },
-//     // buttons: {
-//     //     display: 'flex',
-//     //     flexDirection: 'column',
-//     //     justifyContent: 'center',
-//     //     paddingRight: '1%',
-//     //     position: 'sticky'
-//     // },
-// }
-
 class Works extends Component {
     render() {
         return (
