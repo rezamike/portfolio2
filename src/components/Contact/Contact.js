@@ -9,35 +9,6 @@ import * as emailjs from 'emailjs-com';
 
 library.add(faChevronUp)
 
-// const styles = {
-//     name: {
-//         display: 'flex',
-//         justifyContent: 'flex-start',
-//         alignItems: 'center',
-//         width: '100vw',
-//         margin: '1% 1% 1% 2%',
-//         position: 'relative',
-//     },
-//     buttons: {
-//         display: 'flex',
-//         flexDirection: 'column',
-//         justifyContent: 'center',
-//         paddingRight: '1%',
-//         position: 'sticky'
-//     },
-//     upper: {
-//         position: 'absolute',
-//         display: 'flex',
-//         alignSelf: 'flex-start',
-//         width: '100vw',
-//         // paddingRight: '2%',
-//     },
-//     form: {
-//         margin: '0 auto',
-//         width: '35vw',
-//     }
-// }
-
 class Contact extends Component {
     constructor(props) {
         super(props);
@@ -116,16 +87,7 @@ class Contact extends Component {
                             </label>
                             <label>
                                 Message:
-          <textarea
-                                    style={{
-                                        height: '75%',
-                                        border: 'none',
-                                        fontSize: 18,
-                                        margin: '1%',
-                                        borderRadius: 2.5,
-                                        width: '-webkit-fill-available',
-                                        padding: '10px 20px'
-                                    }}
+          <textarea className='bigBox'
                                     rows="5"
                                     cols="80"
                                     type="text"

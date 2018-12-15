@@ -6,23 +6,6 @@ import 'aos/dist/aos.css';
 
 AOS.init();
 
-// const styles = {
-//     name: {
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         width: '100%',
-//         height: '100vh',
-//         position: 'relative',
-//     },
-//     // buttons: {
-//     //     display: 'flex',
-//     //     flexDirection: 'column',
-//     //     justifyContent: 'center',
-//     //     paddingRight: '1%',
-//     //     position: 'sticky'
-//     // },
-// }
-
 class About extends Component {
     render() {
         return (

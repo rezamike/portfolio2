@@ -8,31 +8,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 library.add(faChevronDown)
 
-// const styles = {
-//     name: {
-//         display: 'flex',
-//         justifyContent: 'flex-start',
-//         alignItems: 'center',
-//         width: '100vw',
-//         margin: '1% 1% 1% 2%',
-//         position: 'relative',
-//     },
-//     buttons: {
-//         display: 'flex',
-//         flexDirection: 'column',
-//         justifyContent: 'center',
-//         paddingRight: '1%',
-//         position: 'sticky'
-//     },
-//     downer: {
-//         position: 'absolute',
-//         display: 'flex',
-//         alignSelf: 'flex-end',
-//         width: '100vw',
-//         // paddingRight: '2%',
-//     }
-// }
-
 class Home extends Component {
     constructor(props) {
         super(props);

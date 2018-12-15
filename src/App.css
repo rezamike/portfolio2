@@ -171,8 +171,8 @@ hr {
     text-align: center;
     cursor: pointer;
     margin-top: 10px;
-    padding-left: 25%;
-    margin-right: 10px;
+    padding-right: 0;
+    margin-right: 20px;
     -webkit-transition-duration: 0.4s;
       transition-duration: 0.4s;
   }
@@ -185,7 +185,7 @@ hr {
     cursor: pointer;
     margin-top: 10px;
     padding-right: 0;
-    margin-right: 10px;
+    margin-right: 20px;
     -webkit-transition-duration: 0.4s;
       transition-duration: 0.4s;
   }
@@ -198,7 +198,7 @@ hr {
     cursor: pointer;
     margin-top: 10px;
     padding-right: 0;
-    margin-right: 10px;
+    margin-right: 20px;
     -webkit-transition-duration: 0.4s;
       transition-duration: 0.4s;
   }
@@ -211,7 +211,7 @@ hr {
     cursor: pointer;
     margin-top: 10px;
     padding-right: 0;
-    margin-right: 10px;
+    margin-right: 20px;
     -webkit-transition-duration: 0.4s;
       transition-duration: 0.4s;
   }
@@ -224,7 +224,7 @@ hr {
     cursor: pointer;
     margin-top: 10px;
     padding-right: 0;
-    margin-right: 10px;
+    margin-right: 20px;
     -webkit-transition-duration: 0.4s;
       transition-duration: 0.4s;
   }
@@ -285,7 +285,7 @@ hr {
     animation-duration: 4s;
     list-style-type: none;
     display: flex;
-    margin: 0 5% 5% 0;
+    margin: 0 0 0 2%;
     padding-left: 0;
   }
   

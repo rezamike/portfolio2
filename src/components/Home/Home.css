@@ -107,7 +107,7 @@ li {
     .intro {
         color: #998877;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 1.4em;
         padding-left: 2%;
         text-align: left;
     }
@@ -115,7 +115,7 @@ li {
     .standAlone {
         font-weight: 800;
         color: slategray;
-        font-size: 26px;
+        font-size: 1.5em;
     }
 
     .name {
@@ -131,7 +131,7 @@ li {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-right: 1%;
+        padding-right: 2%;
         position: sticky;
     }
     
@@ -143,7 +143,7 @@ li {
     }
     
     .social {
-        margin: 5px;
+        margin: 5%;
         fill: #D0C8C0;
         -webkit-transition-duration: 0.4s;
         transition-duration: 0.4s;
@@ -155,11 +155,12 @@ li {
     }
     
     li {
-        margin: 0 5px 5px 0;
+        text-align: center;
+        margin: 0 auto;
     }
     
     .downButton {
-        font-size: 32px;
+        font-size: 2em;
         color: #778899;
         padding-right: 2%;
         cursor: pointer;
