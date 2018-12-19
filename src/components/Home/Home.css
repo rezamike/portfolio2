@@ -99,7 +99,7 @@ li {
         height: 95vh; 
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         display: flex;
     }
 
@@ -196,7 +196,7 @@ li {
         height: 95vh; 
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         display: flex;
     }
 
