@@ -145,3 +145,53 @@
         background-color: slategray!important;
     }
 }
+
+@media only screen and (max-height: 530px) {
+
+    .Services {
+        background-image: url('/assets/Milkyway_Panorama\ True.jpg');
+        height: 100vh; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+    }
+    
+    .nameS {
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        position: relative;
+    }
+    
+    .titleS {
+        font-weight: 700;
+        color: #998877;
+        font-size: 1.4em;
+        text-align: center;
+        margin-bottom: 1%;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    }
+    
+    .standAloneS {
+        font-weight: 400;
+        color: #778899;
+    }
+    
+    .stacks {
+        background-color: #D0C8C0;
+        border: none;
+        border-radius: 5px;
+        margin: 1%;
+        padding: 5%;
+        width: 45px;
+        height: 45px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    }
+    
+    .stacks:hover {
+        background-color: slategray!important;
+    }
+}
