@@ -93,7 +93,7 @@ li {
     cursor: pointer;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 896px) {
     .Home {
         background-image: url('/assets/Milkyway_Panorama\ True.jpg');
         height: 95vh; 
@@ -190,7 +190,7 @@ li {
       }
   }
 
-  @media only screen and (max-width: 568px) {
+  @media only screen and (max-width: 736px) {
     .Home {
         background-image: url('/assets/Milkyway_Panorama\ True.jpg');
         height: 95vh; 
