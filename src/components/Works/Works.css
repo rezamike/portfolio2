@@ -145,7 +145,7 @@
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 600px) {
 
     .Works {
         background-color: #D0C8C0;
