@@ -194,7 +194,7 @@
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
         margin-right: 10%;
         border: none;
         border-radius: 5px;
@@ -234,7 +234,7 @@
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
         border: none;
         border-radius: 5px;
         padding: 3%;
@@ -332,7 +332,7 @@
         height: -webkit-fill-available; 
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
         margin-right: 10%;
         border: none;
         border-radius: 5px;
@@ -371,7 +371,7 @@
         height: -webkit-fill-available; 
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
         border: none;
         border-radius: 5px;
         padding: 3%;

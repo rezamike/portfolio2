@@ -162,7 +162,7 @@ li {
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: 100% 100%;
       display: flex;
   }
   
@@ -325,7 +325,7 @@ li {
       height: 100vh; 
       background-position: center;
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: 100% 100%;
       display: flex;
   }
   
