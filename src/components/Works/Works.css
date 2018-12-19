@@ -145,7 +145,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 568px) {
 
     .Works {
         background-color: #D0C8C0;
@@ -218,7 +218,7 @@
     }
 }
 
-@media only screen and (max-height: 530px) {
+/* @media only screen and (max-height: 530px) {
 
     .Works {
         background-color: #D0C8C0;
@@ -289,4 +289,4 @@
         6px 5px 1px #ccc, 5px 6px 1px #eee,
         7px 6px 1px #ccc;
     }
-}
+} */

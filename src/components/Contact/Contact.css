@@ -318,7 +318,7 @@ li {
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 568px) {
 
     .Contact {
       background-image: url('/assets/Milkyway_Panorama\ True.jpg');
@@ -481,7 +481,7 @@ li {
     }
   }
 
-  @media only screen and (max-height: 530px) {
+  /* @media only screen and (max-height: 530px) {
 
     .Contact {
       background-image: url('/assets/Milkyway_Panorama\ True.jpg');
@@ -643,4 +643,4 @@ li {
         color: black;
         cursor: pointer;
     }
-  }
+  } */
