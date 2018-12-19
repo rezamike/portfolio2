@@ -154,7 +154,7 @@ li {
       cursor: pointer;
   }
 
-  @media only screen and (max-width: 896px) {
+  @media only screen and (max-width: 414px) {
 
     .Contact {
       background-image: url('/assets/Milkyway_Panorama\ True.jpg');
@@ -318,7 +318,7 @@ li {
     }
   }
 
-  @media only screen and (max-width: 736px) {
+  @media only screen and (max-width: 375px) {
 
     .Contact {
       background-image: url('/assets/Milkyway_Panorama\ True.jpg');

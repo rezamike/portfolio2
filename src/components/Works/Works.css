@@ -70,7 +70,7 @@
     7px 6px 1px #ccc;
 }
 
-@media only screen and (max-width: 896px) {
+@media only screen and (max-width: 414px) {
 
     .Works {
         background-color: #D0C8C0;
@@ -145,7 +145,7 @@
     }
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 375px) {
 
     .Works {
         background-color: #D0C8C0;

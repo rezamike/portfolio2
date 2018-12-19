@@ -148,7 +148,7 @@ hr {
   border: none;
 }
 
-@media only screen and (max-width: 896px) {
+@media only screen and (max-width: 414px) {
 
   .App {
     font-family: 'Montserrat', sans-serif;
@@ -301,7 +301,7 @@ hr {
   }
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 375px) {
 
   .App {
     font-family: 'Montserrat', sans-serif;
