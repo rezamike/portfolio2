@@ -45,3 +45,21 @@
 .stacks:hover {
     background-color: slategray!important;
 }
+
+@media only screen and (max-width: 414px) {
+
+    .Services {
+        background-size: 100% 100%;
+    }
+
+    .titleS {
+        font-size: 36px;
+    }
+
+    .stacks {
+        margin: 5px;
+        padding: 15px;
+        width: 18%;
+        height: 70px;
+    }
+}

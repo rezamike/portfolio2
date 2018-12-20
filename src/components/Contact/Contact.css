@@ -154,3 +154,26 @@ li {
       cursor: pointer;
   }
 
+  @media only screen and (max-width: 414px) {
+
+    .Contact {
+      background-size: 100% 100%;
+  }
+
+  .titleC {
+    font-size: 36px;
+    padding-left: 2%;
+    margin-top: auto;
+    margin-bottom: 2%;
+  }
+
+  .nameC {
+    flex-direction: column;
+    margin: 1%;
+    padding-bottom: 2%;
+  }
+
+  .formC {
+    width: 75vw;
+  }
+  }

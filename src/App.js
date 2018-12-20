@@ -5,14 +5,13 @@ import About from './components/About/About';
 import Services from './components/Services/Services';
 import Works from './components/Works/Works';
 import Contact from './components/Contact/Contact';
-import { render } from 'react-dom';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Link, Element, Events, animateScroll as scroll, scroller } from 'react-scroll';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 library.add(faBars, faTimes, faChevronDown)
 
