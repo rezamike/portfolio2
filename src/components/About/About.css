@@ -1,6 +1,6 @@
 .About {
     background-color: #D0C8C0;
-    height: -webkit-fill-available; 
+    height: 90vh; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 .titleA {
     font-weight: 700;
     color: slategray;
-    font-size: 42px;
+    font-size: 2em;
     text-align: center;
     margin-bottom: 1%;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
@@ -33,9 +33,9 @@
 .mainA {
     color: #778899;
     font-style: italic;
-    font-size: 32px;
+    font-size: 1.6em;
     text-align: center;
-    padding: 25px 100px;
+    padding: 3% 8%;
     margin-bottom: 1%;
 }
 
@@ -43,27 +43,17 @@
     width: 100vw;
 }
 
-.secondaryTextA {
-    color: #778899;
-    font-size: 24px;
-    text-align: center;
-    padding: 25px 100px;
-    height: min-content;
-    margin: 0 auto;
-}
-
 .profileImageA {
     background-image: url('/assets/Milkyway_Panorama\ True.jpg');
-    height: -webkit-fill-available; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
-    border-radius: 5px;
-    padding: 20px;
-    height: 100%;
-    width: 15%;
+    border-radius: 5%;
+    padding: 2%;
+    height: auto;
+    width: 12%;
     display: inline-flex;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -82,55 +72,7 @@
     display: inline-flex;
 }
 
-.extLinkA {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('/assets/Milkyway_Panorama\ True.jpg');
-    height: -webkit-fill-available; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: none;
-    border-radius: 5px;
-    padding: 20px;
-    width: 250px;
-    height: 25px;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    text-align: center;
-    color: #D0C8C0;
-    font-size: 36px;
-    font-weight: 700;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}
-
-.extLinkA:hover {
-    background-color: slategray!important;
-    background-image: none;
-    color: #998877;
-    cursor: pointer;
-    text-shadow: 
-    1px 0px 1px #ccc, 0px 1px 1px #eee, 
-    2px 1px 1px #ccc, 1px 2px 1px #eee,
-    3px 2px 1px #ccc, 2px 3px 1px #eee,
-    4px 3px 1px #ccc, 3px 4px 1px #eee,
-    5px 4px 1px #ccc, 4px 5px 1px #eee,
-    6px 5px 1px #ccc, 5px 6px 1px #eee,
-    7px 6px 1px #ccc;
-}
-
 @media only screen and (max-width: 414px) {
-
-    .titleA {
-        font-size: 36px;
-    }
-    
-    .mainA {
-        font-size: 22px;
-    }
 
     .profileImageA {
         display: none;

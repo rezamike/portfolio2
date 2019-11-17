@@ -20,7 +20,7 @@ class Services extends Component {
                     <p className='titleS'>
                         Service<span className='standAloneS'>s</span></p>
                     <hr />
-                    <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center' }}>
+                    <div style={{ padding: '0 8% 3% 8%' , display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center' }}>
                         <img className='stacks' src='/assets/svg/html5.svg' />
                         <img className='stacks' src='/assets/svg/css3.svg' />
                         <img className='stacks' src='/assets/svg/javascript.svg' />

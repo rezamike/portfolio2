@@ -1,6 +1,6 @@
 .Works {
     background-color: #D0C8C0;
-    height: -webkit-fill-available; 
+    height: 90vh; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
 .titleW {
     font-weight: 700;
     color: slategray;
-    font-size: 42px;
+    font-size: 2em;
     text-align: center;
     margin-bottom: 1%;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
@@ -40,17 +40,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
-    border-radius: 5px;
-    margin: 50px;
-    padding: 20px;
-    width: 250px;
-    height: 250px;
+    border-radius: 5%;
+    margin: 5%;
+    padding: 3%;
+    width: 7em;
+    height: 7em;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     text-decoration: none;
     text-align: center;
     color: #D0C8C0;
-    font-size: 36px;
+    font-size: 2em;
     font-weight: 700;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
@@ -78,10 +78,10 @@
 
     .projects {
         background-size: 100% 100%;
-        margin: 25px;
-        padding: 5px;
-        width: 200px;
-        height: 200px;
+        margin: 20px;
+        padding: 2px;
+        width: 175px;
+        height: 175px;
         font-size: 30px;
     }
 }

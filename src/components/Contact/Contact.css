@@ -68,7 +68,6 @@ li {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     display: flex;
-    width: min-content;
     margin: 0 auto;
   }
 
@@ -158,22 +157,23 @@ li {
 
     .Contact {
       background-size: 100% 100%;
-  }
+    }
 
-  .titleC {
-    font-size: 36px;
-    padding-left: 2%;
-    margin-top: auto;
-    margin-bottom: 2%;
-  }
+    .titleC {
+      font-size: 36px;
+      padding-left: 2%;
+      margin-top: auto;
+      margin-bottom: 2%;
+    }
 
-  .nameC {
-    flex-direction: column;
-    margin: 1%;
-    padding-bottom: 2%;
-  }
+    .nameC {
+      flex-direction: column;
+      margin: 1%;
+      padding-bottom: 2%;
+    }
 
-  .formC {
-    width: 75vw;
-  }
+    .formC {
+      width: 75vw;
+      margin-bottom: 10px;
+    }
   }

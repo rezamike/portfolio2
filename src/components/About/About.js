@@ -20,7 +20,7 @@ class About extends Component {
                         About <span className='standAloneA'>me</span></p>
                     <hr />
                     <p className='font-effect-3d-float mainA'>
-                        With a strong pursuit of creating something from nothing, the transition from a background in <span style={{cursor: 'pointer'}} onClick={() => { window.open('http://www.michaelrezasanaiha.com') }}>FILM</span> and media was seamless to building web and mobile based applications efficiently and beautifully.
+                        With a strong pursuit of creating something from nothing, the transition from a background in <span id='filmText' style={{cursor: 'pointer'}} onClick={() => { window.open('http://www.michaelrezasanaiha.com') }}>FILM</span> and media was seamless to building web and mobile based applications efficiently and beautifully.
                     </p>
                     <div
                         data-aos="fade-right"
