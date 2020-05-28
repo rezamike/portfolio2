@@ -93,11 +93,7 @@ li {
     cursor: pointer;
   }
 
-  @media only screen and (max-width: 414px) {
-
-    .Home {
-        background-size: 100% 100%;
-    }
+  @media only screen and (max-width: 600px) {
     
     .intro {
         font-size: 36px;
