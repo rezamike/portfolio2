@@ -75,13 +75,18 @@
 @media only screen and (max-width: 600px) {
 
     .profileImageA {
-        background-size: auto 100%;
+        background-size: 100% 100%;
+        background-attachment: inherit;
+        background-position: center;
+        background-repeat: no-repeat;
         padding: 5%;
         width: 32%;
+        height: 100%;
     }
 
     .mainA {
         font-size: 1.4em;
+        margin-bottom: 4%;
     }
     
 }

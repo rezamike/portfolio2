@@ -77,7 +77,10 @@
     }
 
     .projects {
-        background-size: auto 100%;
+        background-size: 100% 100%;
+        background-attachment: inherit;
+        background-position: center;
+        background-repeat: no-repeat;
         margin: 20px;
         padding: 2px;
         width: 175px;
