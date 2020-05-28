@@ -1,6 +1,6 @@
 .Services {
     background-image: url('/assets/Milkyway_Panorama\ True.jpg');
-    height: 90vh; 
+    height: 90vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,18 +47,15 @@
 }
 
 @media only screen and (max-width: 600px) {
-
     .Services {
         background-size: 100% 100%;
         background-attachment: inherit;
         background-position: center;
         background-repeat: no-repeat;
     }
-
     .titleS {
         font-size: 36px;
     }
-
     .stacks {
         margin: 4px;
         padding: 10px;

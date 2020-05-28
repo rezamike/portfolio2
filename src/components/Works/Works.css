@@ -1,6 +1,6 @@
 .Works {
     background-color: #D0C8C0;
-    height: 90vh; 
+    height: 90vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@
     justify-content: center;
     align-items: center;
     background-image: url('/assets/Milkyway_Panorama\ True.jpg');
-    height: -webkit-fill-available; 
+    height: -webkit-fill-available;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,22 +60,13 @@
     background-image: none;
     color: #998877;
     cursor: pointer;
-    text-shadow: 
-    1px 0px 1px #ccc, 0px 1px 1px #eee, 
-    2px 1px 1px #ccc, 1px 2px 1px #eee,
-    3px 2px 1px #ccc, 2px 3px 1px #eee,
-    4px 3px 1px #ccc, 3px 4px 1px #eee,
-    5px 4px 1px #ccc, 4px 5px 1px #eee,
-    6px 5px 1px #ccc, 5px 6px 1px #eee,
-    7px 6px 1px #ccc;
+    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
 }
 
 @media only screen and (max-width: 600px) {
-
     .titleW {
         font-size: 36px;
     }
-
     .projects {
         background-size: 100% 100%;
         background-attachment: inherit;

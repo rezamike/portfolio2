@@ -1,6 +1,6 @@
 .Home {
     background-image: url('/assets/Milkyway_Panorama\ True.jpg');
-    height: 90vh; 
+    height: 90vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,42 +72,52 @@ li {
     display: flex;
     width: min-content;
     margin: 0 auto;
-  }
+}
 
-  .down {
+.down {
     animation-name: down;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-  }
-
-  @keyframes down {
-  0%   {padding-bottom: 25px}
-  25%   {padding-bottom: 50px}
-  50%   {padding-bottom: 25px}
-  75%   {padding-bottom: 50px}
-  100%   {padding-bottom: 25px}
 }
-  
-  .downButton:hover {
+
+@keyframes down {
+    0% {
+        padding-bottom: 25px
+    }
+    25% {
+        padding-bottom: 50px
+    }
+    50% {
+        padding-bottom: 25px
+    }
+    75% {
+        padding-bottom: 50px
+    }
+    100% {
+        padding-bottom: 25px
+    }
+}
+
+.downButton:hover {
     color: #998877!important;
     cursor: pointer;
-  }
+}
 
-  @media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 600px) {
     .Home {
         background-size: 100% 100%;
         background-attachment: inherit;
         background-position: center;
         background-repeat: no-repeat;
     }
-    
     .intro {
         font-size: 36px;
         padding-left: 2%;
     }
-    
     .standAlone {
         font-size: 42px;
     }
-  }
+    .downButton {
+        padding-left: 2%;
+    }
+}

@@ -1,11 +1,11 @@
 .Contact {
-    background-image: url('/assets/Milkyway_Panorama\ True.jpg');
-    height: 100vh; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
+  background-image: url('/assets/Milkyway_Panorama\ True.jpg');
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
 }
 
 .nameC {
@@ -45,139 +45,149 @@
 }
 
 .socialC {
-    margin: 5px;
-    fill: #D0C8C0;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+  margin: 5px;
+  fill: #D0C8C0;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 .socialC:hover {
-    fill: slategray!important;
-    cursor: pointer;
+  fill: slategray!important;
+  cursor: pointer;
 }
 
 li {
-    margin: 0 5px 5px 0;
+  margin: 0 5px 5px 0;
 }
 
 .upButtonC {
-    font-size: 32px;
-    color: #778899;
-    padding-right: 2%;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    display: flex;
-    margin: 0 auto;
-  }
-
-  .upC {
-    animation-name: up;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  }
-
-  @keyframes up {
-  0%   {padding-top: 25px}
-  25%   {padding-top: 50px}
-  50%   {padding-top: 25px}
-  75%   {padding-top: 50px}
-  100%   {padding-top: 25px}
+  font-size: 32px;
+  color: #778899;
+  padding-right: 2%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  display: flex;
+  margin: 0 auto;
 }
-  
-  .upButtonC:hover {
-    color: #998877!important;
-    cursor: pointer;
-  }
 
-  form {
-    background: #D0C8C0;
-      padding: 15px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      border-radius: 5px;
-      display: flex;
-      flex-direction: column;
-  }
+.upC {
+  animation-name: up;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
 
-  .bigBox {
-    height: 75%;
-    border: none;
-    font-size: 18px;
+@keyframes up {
+  0% {
+    padding-top: 25px
+  }
+  25% {
+    padding-top: 50px
+  }
+  50% {
+    padding-top: 25px
+  }
+  75% {
+    padding-top: 50px
+  }
+  100% {
+    padding-top: 25px
+  }
+}
+
+.upButtonC:hover {
+  color: #998877!important;
+  cursor: pointer;
+}
+
+form {
+  background: #D0C8C0;
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bigBox {
+  height: 75%;
+  border: none;
+  font-size: 18px;
+  margin: 1%;
+  border-radius: 2.5px;
+  width: -webkit-fill-available;
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+label {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 1%;
+  padding: 1%;
+}
+
+input {
+  border: none;
+  font-size: 18px;
+  margin: 1%;
+  border-radius: 2.5px;
+  width: -webkit-fill-available;
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.submit {
+  background-color: #778899;
+  border-radius: 2.5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 1%;
+  padding: 2%;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  opacity: .8;
+  width: min-content;
+  display: flex;
+  align-self: center;
+}
+
+.submit:hover {
+  opacity: 1;
+  color: black;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .Contact {
+    background-size: 100% 100%;
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .titleC {
+    font-size: 36px;
+    padding-left: 2%;
+    margin-top: auto;
+    margin-bottom: 20%;
+    display: inline-flex;
+  }
+  .nameC {
+    flex-direction: column;
     margin: 1%;
-    border-radius: 2.5px;
-    width: -webkit-fill-available;
-    padding: 10px 20px;
-    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 2%;
   }
-
-  label {
-    color: black;
-    font-size: 20px;
-    font-weight: 700;
-    margin: 1%;
-    padding: 1%;
+  .formC {
+    width: 75vw;
+    margin-bottom: 10%;
   }
-
-  input {
-    border: none;
-    font-size: 18px;
-    margin: 1%;
-    border-radius: 2.5px;
-    width: -webkit-fill-available;
-    padding: 10px 20px;
-    font-family: 'Montserrat', sans-serif;
+  .upButtonC {
+    margin: 0 auto;
+    padding-left: 2%;
   }
-
-  .submit {
-    background-color: #778899;
-    border-radius: 2.5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
-    margin: 1%;
-    padding: 2%;
-    font-family: 'Montserrat', sans-serif;
-    border: none;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    opacity: .8;
-    width: min-content;
-    display: flex;
-    align-self: center;
-  }
-
-  .submit:hover {
-      opacity: 1;
-      color: black;
-      cursor: pointer;
-  }
-
-  @media only screen and (max-width: 600px) {
-
-    .Contact {
-      background-size: 100% 100%;
-        background-attachment: inherit;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .titleC {
-      font-size: 36px;
-      padding-left: 2%;
-      margin-top: auto;
-      margin-bottom: 30%;
-      display: inline-flex;
-    }
-
-    .nameC {
-      flex-direction: column;
-      margin: 1%;
-      padding-bottom: 2%;
-    }
-
-    .formC {
-      width: 75vw;
-      margin-bottom: 10%;
-    }
-  }
+}
